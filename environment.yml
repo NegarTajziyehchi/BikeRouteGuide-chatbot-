@@ -1,0 +1,10 @@
+name: bike-ai-3
+channels:
+  - defaults
+dependencies:
+  - streamlit
+  - numpy
+  - pandas
+  - openai
+  - streamlit
+  - python-dotenv

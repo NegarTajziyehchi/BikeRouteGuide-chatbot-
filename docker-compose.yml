@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  streamlit:
+    build:
+      context: ./docker/streamlit
+      dockerfile: Dockerfile
+    environment:
+      - .env
+    ports:
+      - 8501:8501
+    command: streamlit run app/app.py --server.address="0.0.0.0"
+    volumes:
+      - ./app:/app
+    env_file:
+      - ./app/.env # Specify the path to the .env file

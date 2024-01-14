@@ -1,0 +1,20 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Custom styling for chat messages */
+.streamlit-chat-message {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+/* Style for the chat input box */
+.streamlit-chat-input-box {
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+}
+
+/* Add more custom styles as needed */
